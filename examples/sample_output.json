@@ -1,0 +1,29 @@
+{
+  "success": true,
+  "data": [
+    {
+      "tx_hash": "0xaaaa111122223333444455556666777788889999aaaabbbbccccddddeeeeffff",
+      "block_number": 19500250,
+      "from": "0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045",
+      "to": "0x28C6c06298d514Db089934071355E5743bf21d60",
+      "value_usd": 2450000.00,
+      "token": "ETH",
+      "direction": "accumulation",
+      "timestamp": "2026-05-22T04:15:00Z",
+      "alert_type": "accumulation_pattern"
+    },
+    {
+      "tx_hash": "0xbbbb111122223333444455556666777788889999aaaabbbbccccddddeeeeffff",
+      "block_number": 19500248,
+      "from": "0xAb5801a7D398351b8bE11C439e05C5B3259aeC9B",
+      "to": "0xfB6916095ca1df60bB79Ce92cE3Ea74c37c5d359",
+      "value_usd": 580000.00,
+      "token": "ETH",
+      "direction": "distribution",
+      "timestamp": "2026-05-22T04:10:00Z",
+      "alert_type": "whale_sell"
+    }
+  ],
+  "count": 2,
+  "timestamp": "2026-05-22T04:20:00Z"
+}

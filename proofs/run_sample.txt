@@ -1,0 +1,82 @@
+2026/05/22 12:37:49 ChainWatcher starting on :8080
+2026/05/22 12:37:49 Endpoints: /api/whales, /api/smart-money, /api/health, /api/mempool, /api/tokens
+{
+  "success": true,
+  "data": [
+    {
+      "tx_hash": "0x21a31Ee1afC51d94260522121757",
+      "block_number": 0,
+      "from": "21a31Ee1afC51d94C2eFcCAa2092aD1028285549",
+      "to": "0x21a31Ee1...",
+      "value_usd": 530000,
+      "token": "ETH",
+      "direction": "accumulation",
+      "timestamp": "2026-05-22T12:17:57.08699034+08:00",
+      "alert_type": "whale_buy"
+    },
+    {
+      "tx_hash": "0x28C6c06298d514Db260522122257",
+      "block_number": 0,
+      "from": "28C6c06298d514Db089934071355E5743bf21d60",
+      "to": "0x28C6c062...",
+      "value_usd": 410000,
+      "token": "ETH",
+      "direction": "distribution",
+      "timestamp": "2026-05-22T12:22:57.08699034+08:00",
+      "alert_type": "whale_sell"
+    },
+    {
+      "tx_hash": "0xfB6916095ca1df60260522122757",
+      "block_number": 0,
+      "from": "fB6916095ca1df60bB79Ce92cE3Ea74c37c5d359",
+      "to": "0xfB691609...",
+      "value_usd": 290000,
+      "token": "ETH",
+      "direction": "accumulation",
+      "timestamp": "2026-05-22T12:27:57.08699034+08:00",
+      "alert_type": "whale_buy"
+    },
+    {
+      "tx_hash": "0xAb5801a7D398351b260522123257",
+      "block_number": 0,
+      "from": "Ab5801a7D398351b8bE11C439e05C5B3259aeC9B",
+      "to": "0xAb5801a7...",
+      "value_usd": 170000,
+      "token": "ETH",
+      "direction": "accumulation",
+      "timestamp": "2026-05-22T12:32:57.08699034+08:00",
+      "alert_type": "whale_buy"
+    }
+  ],
+  "count": 4,
+  "timestamp": "2026-05-22T12:37:57.08698986+08:00"
+}
+{
+  "success": true,
+  "data": [
+    {
+      "wallet": "0xSmartWhale1a2b3c4d5e6f7890abcdef12345678",
+      "score": 62.5,
+      "win_rate": 60,
+      "profit_factor": 7.67,
+      "total_trades": 25,
+      "net_pnl_usd": 60000,
+      "tags": [
+        "MEV"
+      ],
+      "last_active": "2026-05-22T12:37:57.087140238+08:00"
+    },
+    {
+      "wallet": "0xMEVBot9876543210fedcba9876543210fedcba",
+      "score": 62.5,
+      "win_rate": 60,
+      "profit_factor": 7.67,
+      "total_trades": 25,
+      "net_pnl_usd": 60000,
+      "tags": [
+        "MEV"
+      ],
+      "last_active": "2026-05-22T12:37:57.087140238+08:00"
+    },
+    {
+      "wallet": "0xInsiderTraderabcdef1234567890abcdef12",
